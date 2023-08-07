@@ -5,3 +5,9 @@ export function GET() {
     message: 'Tareaaas!'
   })
 }
+
+export function POST() {
+  return NextResponse.json({
+    message: 'Tarea creada!'
+  })
+}
